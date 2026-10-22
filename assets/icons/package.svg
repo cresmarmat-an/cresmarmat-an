@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <title>Projects</title>
+  <g stroke="#5589bd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m16 5 10 5.5v11L16 27 6 21.5v-11Z"/>
+    <path d="m6 10.5 10 5.7 10-5.7M16 16.2V27"/>
+    <path class="seam" d="m11 7.8 10 5.6v5"/>
+  </g>
+</svg>
