@@ -35,9 +35,13 @@
 
 <p align="center">
   <img src="./assets/tech/javascript.svg" width="124" height="124" alt="JavaScript">
+  <img src="./assets/tech/typescript.svg" width="124" height="124" alt="TypeScript">
+  <img src="./assets/tech/nextjs.svg" width="124" height="124" alt="Next.js">
   <img src="./assets/tech/nodejs.svg" width="124" height="124" alt="Node.js">
+  <br>
   <img src="./assets/tech/html.svg" width="124" height="124" alt="HTML">
   <img src="./assets/tech/css.svg" width="124" height="124" alt="CSS">
+  <img src="./assets/tech/tailwindcss.svg" width="124" height="124" alt="Tailwind CSS">
   <img src="./assets/tech/threejs.svg" width="124" height="124" alt="Three.js">
 </p>
 

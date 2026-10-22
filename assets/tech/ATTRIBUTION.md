@@ -28,7 +28,17 @@ The Three.js vector comes from Devicon:
 
 https://github.com/devicons/devicon/blob/master/icons/threejs/threejs-original.svg
 
-Its paths use the common monochrome presentation for contrast against the charcoal tile. See [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
+This naturally monochrome logo uses a white foreground for contrast against the charcoal tile. See [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
+
+## Additional web technologies
+
+The following original vector assets come from the official Devicon repository and retain their original logo colors:
+
+- Tailwind CSS: https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg
+- Next.js: https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg
+- TypeScript: https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg
+
+Next.js retains its black and white mark with a thin white backing for contrast. The Devicon MIT license is included in [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
 
 ## Rojo
 
@@ -40,4 +50,4 @@ The complete vector geometry is embedded in `rojo.svg`. Only its placement and s
 
 ## Presentation changes
 
-Each SVG is embedded directly with no network dependencies. The tiles use a charcoal background, gray border, and white text label. All logos use a monochrome presentation in neutral gray, white, and black. Multitone shading and negative spaces are preserved for legibility. Lua sits on a white circular backing. All logo geometry is retained.
+Each SVG is embedded directly with no network dependencies. The frames use a neutral charcoal-to-black gradient, subtle gray highlight edges, and white text labels. Technology logos retain their original brand colors and vector geometry. The naturally monochrome Rust and Three.js marks use a white foreground for contrast. Lua retains its dark blue artwork with neutral white backing shapes for legibility. All brand logo geometry is retained.
