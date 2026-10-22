@@ -2,42 +2,43 @@
 <g transform="translate(0 6)">
   <title id="tailwindcss-title">Tailwind CSS</title>
   <defs>
-    <linearGradient id="tailwindcss-surface" x1="0" y1="0" x2="0.9" y2="1">
-      <stop stop-color="#202025"/>
-      <stop offset="0.42" stop-color="#101012"/>
-      <stop offset="1" stop-color="#070709"/>
+    <linearGradient id="tailwindcss-surface" x1="0" y1="0" x2="0.35" y2="1">
+      <stop stop-color="#105e65"/>
+      <stop offset="0.5" stop-color="#083a43"/>
+      <stop offset="1" stop-color="#061e28"/>
     </linearGradient>
-    <radialGradient id="tailwindcss-ambient" cx="0.36" cy="0.25" r="0.76">
-      <stop stop-color="#38BDF8" stop-opacity="0.12"/>
-      <stop offset="0.48" stop-color="#38BDF8" stop-opacity="0.025"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    <radialGradient id="tailwindcss-ambient" cx="0.3" cy="0.18" r="0.88">
+      <stop stop-color="#30e3dc" stop-opacity="0.60"/>
+      <stop offset="0.5" stop-color="#30e3dc" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#30e3dc" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="tailwindcss-secondary" cx="0.95" cy="0.16" r="0.9">
-      <stop stop-color="#64E4C4" stop-opacity="0.075"/>
-      <stop offset="0.55" stop-color="#64E4C4" stop-opacity="0.035"/>
-      <stop offset="1" stop-color="#64E4C4" stop-opacity="0"/>
+    <radialGradient id="tailwindcss-secondary" cx="0.96" cy="0.16" r="0.78">
+      <stop stop-color="#70f2bd" stop-opacity="0.48"/>
+      <stop offset="0.53" stop-color="#70f2bd" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#70f2bd" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="tailwindcss-halo">
-      <stop stop-color="#38BDF8" stop-opacity="0.08"/>
-      <stop offset="0.55" stop-color="#38BDF8" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop stop-color="#30e3dc" stop-opacity="0.46"/>
+      <stop offset="0.55" stop-color="#30e3dc" stop-opacity="0.21"/>
+      <stop offset="1" stop-color="#30e3dc" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="tailwindcss-reflection">
-      <stop stop-color="#38BDF8" stop-opacity="0.20"/>
-      <stop offset="0.46" stop-color="#38BDF8" stop-opacity="0.07"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop stop-color="#30e3dc" stop-opacity="0.58"/>
+      <stop offset="0.46" stop-color="#30e3dc" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#30e3dc" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="tailwindcss-edge" x1="0" y1="0" x2="0.85" y2="1">
-      <stop stop-color="#f5f5f7" stop-opacity="0.35"/>
-      <stop offset="0.27" stop-color="#38BDF8" stop-opacity="0.20"/>
-      <stop offset="0.72" stop-color="#64E4C4" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0.11"/>
+      <stop stop-color="#ffffff" stop-opacity="0.76"/>
+      <stop offset="0.24" stop-color="#30e3dc" stop-opacity="0.96"/>
+      <stop offset="0.72" stop-color="#70f2bd" stop-opacity="0.73"/>
+      <stop offset="1" stop-color="#30e3dc" stop-opacity="0.52"/>
     </linearGradient>
     <linearGradient id="tailwindcss-glass" x1="0" y1="0" x2="0.88" y2="1">
-      <stop stop-color="#ffffff" stop-opacity="0.075"/>
-      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.012"/>
+      <stop stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.035"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="tailwindcss-contrast"><stop stop-color="#061e28" stop-opacity="0.70"/><stop offset="0.45" stop-color="#061e28" stop-opacity="0.52"/><stop offset="1" stop-color="#061e28" stop-opacity="0"/></radialGradient>
     <clipPath id="tailwindcss-clip"><rect x="0.5" y="0.5" width="127" height="127" rx="16"/></clipPath>
   </defs>
   <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="url(#tailwindcss-surface)"/>
@@ -46,14 +47,15 @@
     <rect width="128" height="128" fill="url(#tailwindcss-secondary)"/>
     <ellipse cx="64" cy="49" rx="48" ry="42" fill="url(#tailwindcss-halo)"/>
     <path d="M0 0H128V16L0 83Z" fill="url(#tailwindcss-glass)"/>
+    <ellipse cx="64" cy="52" rx="38" ry="36" fill="url(#tailwindcss-contrast)"/>
     <ellipse cx="64" cy="84" rx="34" ry="5" fill="#000000" fill-opacity="0.22"/>
     <ellipse cx="64" cy="85" rx="37" ry="6" fill="url(#tailwindcss-reflection)"/>
   </g>
   <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="none" stroke="url(#tailwindcss-edge)"/>
-  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#f5f5f7" stroke-opacity="0.045"/>
-  <path d="M18 2H110" fill="none" stroke="#f5f5f7" stroke-opacity="0.16"/>
+  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#f5f5f7" stroke-opacity="0.13"/>
+  <path d="M18 2H110" fill="none" stroke="#f5f5f7" stroke-opacity="0.28"/>
 
-  <svg x="32" y="20" width="64" height="64" viewBox="0 0 128 128">
+  <svg x="38" y="26" width="52" height="52" viewBox="0 0 128 128">
     <path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38bdf8"/>
   </svg>
   <text x="64" y="109" text-anchor="middle" fill="#f5f5f7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Tailwind CSS</text>

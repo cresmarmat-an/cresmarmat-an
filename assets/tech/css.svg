@@ -2,42 +2,43 @@
 <g transform="translate(0 6)">
   <title id="css-title">CSS</title>
   <defs>
-    <linearGradient id="css-surface" x1="0" y1="0" x2="0.9" y2="1">
-      <stop stop-color="#202025"/>
-      <stop offset="0.42" stop-color="#101012"/>
-      <stop offset="1" stop-color="#070709"/>
+    <linearGradient id="css-surface" x1="0" y1="0" x2="0.35" y2="1">
+      <stop stop-color="#174d72"/>
+      <stop offset="0.5" stop-color="#0b3151"/>
+      <stop offset="1" stop-color="#08182d"/>
     </linearGradient>
-    <radialGradient id="css-ambient" cx="0.36" cy="0.25" r="0.76">
-      <stop stop-color="#33A9DC" stop-opacity="0.12"/>
-      <stop offset="0.48" stop-color="#33A9DC" stop-opacity="0.025"/>
-      <stop offset="1" stop-color="#33A9DC" stop-opacity="0"/>
+    <radialGradient id="css-ambient" cx="0.3" cy="0.18" r="0.88">
+      <stop stop-color="#47beff" stop-opacity="0.60"/>
+      <stop offset="0.5" stop-color="#47beff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#47beff" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="css-secondary" cx="0.95" cy="0.16" r="0.9">
-      <stop stop-color="#B893FF" stop-opacity="0.075"/>
-      <stop offset="0.55" stop-color="#B893FF" stop-opacity="0.035"/>
-      <stop offset="1" stop-color="#B893FF" stop-opacity="0"/>
+    <radialGradient id="css-secondary" cx="0.96" cy="0.16" r="0.78">
+      <stop stop-color="#a788ff" stop-opacity="0.48"/>
+      <stop offset="0.53" stop-color="#a788ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#a788ff" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="css-halo">
-      <stop stop-color="#33A9DC" stop-opacity="0.08"/>
-      <stop offset="0.55" stop-color="#33A9DC" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#33A9DC" stop-opacity="0"/>
+      <stop stop-color="#47beff" stop-opacity="0.46"/>
+      <stop offset="0.55" stop-color="#47beff" stop-opacity="0.21"/>
+      <stop offset="1" stop-color="#47beff" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="css-reflection">
-      <stop stop-color="#33A9DC" stop-opacity="0.20"/>
-      <stop offset="0.46" stop-color="#33A9DC" stop-opacity="0.07"/>
-      <stop offset="1" stop-color="#33A9DC" stop-opacity="0"/>
+      <stop stop-color="#47beff" stop-opacity="0.58"/>
+      <stop offset="0.46" stop-color="#47beff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#47beff" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="css-edge" x1="0" y1="0" x2="0.85" y2="1">
-      <stop stop-color="#f5f5f7" stop-opacity="0.35"/>
-      <stop offset="0.27" stop-color="#33A9DC" stop-opacity="0.20"/>
-      <stop offset="0.72" stop-color="#B893FF" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0.11"/>
+      <stop stop-color="#ffffff" stop-opacity="0.76"/>
+      <stop offset="0.24" stop-color="#47beff" stop-opacity="0.96"/>
+      <stop offset="0.72" stop-color="#a788ff" stop-opacity="0.73"/>
+      <stop offset="1" stop-color="#47beff" stop-opacity="0.52"/>
     </linearGradient>
     <linearGradient id="css-glass" x1="0" y1="0" x2="0.88" y2="1">
-      <stop stop-color="#ffffff" stop-opacity="0.075"/>
-      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.012"/>
+      <stop stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.035"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="css-contrast"><stop stop-color="#08182d" stop-opacity="0.70"/><stop offset="0.45" stop-color="#08182d" stop-opacity="0.52"/><stop offset="1" stop-color="#08182d" stop-opacity="0"/></radialGradient>
     <clipPath id="css-clip"><rect x="0.5" y="0.5" width="127" height="127" rx="16"/></clipPath>
   </defs>
   <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="url(#css-surface)"/>
@@ -46,14 +47,15 @@
     <rect width="128" height="128" fill="url(#css-secondary)"/>
     <ellipse cx="64" cy="49" rx="48" ry="42" fill="url(#css-halo)"/>
     <path d="M0 0H128V16L0 83Z" fill="url(#css-glass)"/>
+    <ellipse cx="64" cy="52" rx="38" ry="36" fill="url(#css-contrast)"/>
     <ellipse cx="64" cy="84" rx="34" ry="5" fill="#000000" fill-opacity="0.22"/>
     <ellipse cx="64" cy="85" rx="37" ry="6" fill="url(#css-reflection)"/>
   </g>
   <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="none" stroke="url(#css-edge)"/>
-  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#f5f5f7" stroke-opacity="0.045"/>
-  <path d="M18 2H110" fill="none" stroke="#f5f5f7" stroke-opacity="0.16"/>
+  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#f5f5f7" stroke-opacity="0.13"/>
+  <path d="M18 2H110" fill="none" stroke="#f5f5f7" stroke-opacity="0.28"/>
 
-  <svg x="32" y="20" width="64" height="64" viewBox="0 0 128 128">
+  <svg x="38" y="26" width="52" height="52" viewBox="0 0 128 128">
     <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/>
   </svg>
   <text x="64" y="109" text-anchor="middle" fill="#f5f5f7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">CSS</text>
