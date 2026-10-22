@@ -3,7 +3,7 @@
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/avatar.png">
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/header.png">
     <source media="(max-width: 600px)" srcset="./assets/profile/avatar.gif">
-    <img src="./assets/profile/header.gif" width="960" alt="Cresmar Mat-an, framed by orbiting rings, a code editor, and Roblox Studio geometry">
+    <img src="./assets/profile/header.gif" width="960" alt="Cresmar Mat-an, framed by orbiting rings, a code editor, and the Roblox Studio logo">
   </picture>
 </p>
 

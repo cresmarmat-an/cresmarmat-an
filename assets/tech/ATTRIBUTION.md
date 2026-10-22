@@ -28,7 +28,7 @@ The Three.js vector comes from Devicon:
 
 https://github.com/devicons/devicon/blob/master/icons/threejs/threejs-original.svg
 
-Its paths are rendered in a pale foreground color for contrast against the dark tile. See [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
+Its paths use the common monochrome presentation for contrast against the charcoal tile. See [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
 
 ## Rojo
 
@@ -40,4 +40,4 @@ The complete vector geometry is embedded in `rojo.svg`. Only its placement and s
 
 ## Presentation changes
 
-Each SVG is embedded directly with no network dependencies. A navy background, border, and text label were added. Rust is rendered in a pale foreground color for contrast. Lua retains its original colors and sits on a pale circular backing. Other logo geometry and colors are retained.
+Each SVG is embedded directly with no network dependencies. The tiles use a charcoal background, gray border, and white text label. All logos use a monochrome presentation in neutral gray, white, and black. Multitone shading and negative spaces are preserved for legibility. Lua sits on a white circular backing. All logo geometry is retained.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="rojo-title">
   <title id="rojo-title">Rojo</title>
-  <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="#14223b" stroke="#2b4164"/>
+  <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="#232323" stroke="#4a4a4a"/>
   <svg x="22" y="30" width="84" height="44" viewBox="0 0 60 27" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g id="rojo-Artboard1" transform="matrix(0.952381,0,0,0.710526,-228.571,-156.316)">
         <rect x="240" y="220" width="63" height="38" style="fill:none;"/>
@@ -20,5 +20,5 @@
         </g>
     </g>
   </svg>
-  <text x="64" y="109" text-anchor="middle" fill="#e4edfa" font-family="Segoe UI, Arial, sans-serif" font-size="14">Rojo</text>
+  <text x="64" y="109" text-anchor="middle" fill="#f5f5f5" font-family="Segoe UI, Arial, sans-serif" font-size="14">Rojo</text>
 </svg>
