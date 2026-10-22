@@ -3,7 +3,7 @@
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/avatar.png">
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/header.png">
     <source media="(max-width: 600px)" srcset="./assets/profile/avatar.gif">
-    <img src="./assets/profile/header.gif" width="960" alt="Cresmar Mat-an, framed by orbiting rings, a code editor, and the Roblox Studio logo">
+    <img src="./assets/profile/header.gif" width="960" alt="Cresmar Mat-an with colorful Roblox and web development tools in a charcoal glass composition">
   </picture>
 </p>
 
@@ -22,36 +22,51 @@
 
 <h2 align="center">Languages and tools</h2>
 
-<h3 align="center">Roblox</h3>
-
 <p align="center">
-  <img src="./assets/tech/luau.svg" width="124" height="124" alt="Luau">
-  <img src="./assets/tech/lua.svg" width="124" height="124" alt="Lua">
-  <img src="./assets/tech/roblox-studio.svg" width="124" height="124" alt="Roblox Studio">
-  <img src="./assets/tech/rojo.svg" width="124" height="124" alt="Rojo">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/sections/roblox-mobile.svg">
+    <img src="./assets/sections/roblox.svg" width="960" alt="Roblox development">
+  </picture>
 </p>
 
-<h3 align="center">Web</h3>
+<p align="center">
+  <img src="./assets/tech/luau.svg" width="124" height="136" alt="Luau">&nbsp;
+  <img src="./assets/tech/lua.svg" width="124" height="136" alt="Lua">&nbsp;
+  <img src="./assets/tech/roblox-studio.svg" width="124" height="136" alt="Roblox Studio">&nbsp;
+  <img src="./assets/tech/rojo.svg" width="124" height="136" alt="Rojo">&nbsp;
+</p>
 
 <p align="center">
-  <img src="./assets/tech/javascript.svg" width="124" height="124" alt="JavaScript">
-  <img src="./assets/tech/typescript.svg" width="124" height="124" alt="TypeScript">
-  <img src="./assets/tech/nextjs.svg" width="124" height="124" alt="Next.js">
-  <img src="./assets/tech/nodejs.svg" width="124" height="124" alt="Node.js">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/sections/web-mobile.svg">
+    <img src="./assets/sections/web.svg" width="960" alt="Web development">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="./assets/tech/javascript.svg" width="124" height="136" alt="JavaScript">&nbsp;
+  <img src="./assets/tech/typescript.svg" width="124" height="136" alt="TypeScript">&nbsp;
+  <img src="./assets/tech/nextjs.svg" width="124" height="136" alt="Next.js">&nbsp;
+  <img src="./assets/tech/nodejs.svg" width="124" height="136" alt="Node.js">&nbsp;
   <br>
-  <img src="./assets/tech/html.svg" width="124" height="124" alt="HTML">
-  <img src="./assets/tech/css.svg" width="124" height="124" alt="CSS">
-  <img src="./assets/tech/tailwindcss.svg" width="124" height="124" alt="Tailwind CSS">
-  <img src="./assets/tech/threejs.svg" width="124" height="124" alt="Three.js">
+  <img src="./assets/tech/html.svg" width="124" height="136" alt="HTML">&nbsp;
+  <img src="./assets/tech/css.svg" width="124" height="136" alt="CSS">&nbsp;
+  <img src="./assets/tech/tailwindcss.svg" width="124" height="136" alt="Tailwind CSS">&nbsp;
+  <img src="./assets/tech/threejs.svg" width="124" height="136" alt="Three.js">&nbsp;
 </p>
 
-<h3 align="center">Other languages and version control</h3>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg">
+    <img src="./assets/sections/systems.svg" width="960" alt="Languages and tooling">
+  </picture>
+</p>
 
 <p align="center">
-  <img src="./assets/tech/python.svg" width="124" height="124" alt="Python">
-  <img src="./assets/tech/c.svg" width="124" height="124" alt="C">
-  <img src="./assets/tech/csharp.svg" width="124" height="124" alt="C#">
-  <img src="./assets/tech/cpp.svg" width="124" height="124" alt="C++">
-  <img src="./assets/tech/rust.svg" width="124" height="124" alt="Rust">
-  <img src="./assets/tech/git.svg" width="124" height="124" alt="Git">
+  <img src="./assets/tech/python.svg" width="124" height="136" alt="Python">&nbsp;
+  <img src="./assets/tech/c.svg" width="124" height="136" alt="C">&nbsp;
+  <img src="./assets/tech/csharp.svg" width="124" height="136" alt="C#">&nbsp;
+  <img src="./assets/tech/cpp.svg" width="124" height="136" alt="C++">&nbsp;
+  <img src="./assets/tech/rust.svg" width="124" height="136" alt="Rust">&nbsp;
+  <img src="./assets/tech/git.svg" width="124" height="136" alt="Git">&nbsp;
 </p>

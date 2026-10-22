@@ -50,4 +50,6 @@ The complete vector geometry is embedded in `rojo.svg`. Only its placement and s
 
 ## Presentation changes
 
-Each SVG is embedded directly with no network dependencies. The frames use a neutral charcoal-to-black gradient, subtle gray highlight edges, and white text labels. Technology logos retain their original brand colors and vector geometry. The naturally monochrome Rust and Three.js marks use a white foreground for contrast. Lua retains its dark blue artwork with neutral white backing shapes for legibility. All brand logo geometry is retained.
+Each SVG is embedded directly with no network dependencies. The glass frames use charcoal-to-black surfaces, restrained colored ambient halos and low reflections that echo the technology's brand palette, a thin luminous bevel, and white text labels. Primary ambient lighting stays at 8 to 12 percent opacity. Naturally monochrome logos have violet, mint, or amber ambient accents around their untouched artwork. Technology logos retain their original brand colors and vector geometry. The naturally monochrome Rust and Three.js marks use a white foreground for contrast. Lua retains its dark blue artwork with neutral white backing shapes for legibility. All brand logo geometry is retained. Ambient color appears only in the surrounding presentation and does not recolor the brand vectors.
+
+The source canvases include vertical canvas padding so consecutive rows retain consistent spacing in GitHub Markdown. The logo geometry is unchanged.

@@ -1,22 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="threejs-title">
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="140" viewBox="0 0 128 140" role="img" aria-labelledby="threejs-title">
+<g transform="translate(0 6)">
   <title id="threejs-title">Three.js</title>
   <defs>
     <linearGradient id="threejs-surface" x1="0" y1="0" x2="0.9" y2="1">
-      <stop stop-color="#2c2c2c"/>
-      <stop offset="0.45" stop-color="#1a1a1a"/>
-      <stop offset="1" stop-color="#090909"/>
+      <stop stop-color="#202025"/>
+      <stop offset="0.42" stop-color="#101012"/>
+      <stop offset="1" stop-color="#070709"/>
     </linearGradient>
-    <linearGradient id="threejs-edge" x1="0" y1="0" x2="0.7" y2="1">
-      <stop stop-color="#707070"/>
-      <stop offset="0.4" stop-color="#3d3d3d"/>
-      <stop offset="1" stop-color="#242424"/>
+    <radialGradient id="threejs-ambient" cx="0.36" cy="0.25" r="0.76">
+      <stop stop-color="#64E4C4" stop-opacity="0.12"/>
+      <stop offset="0.48" stop-color="#64E4C4" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#64E4C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="threejs-secondary" cx="0.95" cy="0.16" r="0.9">
+      <stop stop-color="#B893FF" stop-opacity="0.075"/>
+      <stop offset="0.55" stop-color="#B893FF" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#B893FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="threejs-halo">
+      <stop stop-color="#64E4C4" stop-opacity="0.08"/>
+      <stop offset="0.55" stop-color="#64E4C4" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#64E4C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="threejs-reflection">
+      <stop stop-color="#64E4C4" stop-opacity="0.20"/>
+      <stop offset="0.46" stop-color="#64E4C4" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#64E4C4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="threejs-edge" x1="0" y1="0" x2="0.85" y2="1">
+      <stop stop-color="#f5f5f7" stop-opacity="0.35"/>
+      <stop offset="0.27" stop-color="#64E4C4" stop-opacity="0.20"/>
+      <stop offset="0.72" stop-color="#B893FF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#f5f5f7" stop-opacity="0.11"/>
     </linearGradient>
+    <linearGradient id="threejs-glass" x1="0" y1="0" x2="0.88" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0.075"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="threejs-clip"><rect x="0.5" y="0.5" width="127" height="127" rx="16"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="url(#threejs-surface)" stroke="url(#threejs-edge)"/>
-  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
-  <path d="M18 2H110" fill="none" stroke="#ffffff" stroke-opacity="0.12"/>
+  <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="url(#threejs-surface)"/>
+  <g clip-path="url(#threejs-clip)">
+    <rect width="128" height="128" fill="url(#threejs-ambient)"/>
+    <rect width="128" height="128" fill="url(#threejs-secondary)"/>
+    <ellipse cx="64" cy="49" rx="48" ry="42" fill="url(#threejs-halo)"/>
+    <path d="M0 0H128V16L0 83Z" fill="url(#threejs-glass)"/>
+    <ellipse cx="64" cy="84" rx="34" ry="5" fill="#000000" fill-opacity="0.22"/>
+    <ellipse cx="64" cy="85" rx="37" ry="6" fill="url(#threejs-reflection)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="127" height="127" rx="16" fill="none" stroke="url(#threejs-edge)"/>
+  <rect x="3.5" y="3.5" width="121" height="121" rx="13" fill="none" stroke="#f5f5f7" stroke-opacity="0.045"/>
+  <path d="M18 2H110" fill="none" stroke="#f5f5f7" stroke-opacity="0.16"/>
+
   <svg x="32" y="20" width="64" height="64" viewBox="0 0 128 128" fill="#f5f5f5">
     <g color="#000" font-weight="400" font-family="sans-serif"><path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M16.219 15.762a1.129 1.129 0 00-1.076 1.399l24.394 98.742a1.129 1.129 0 001.879.544l73.386-70.59a1.129 1.129 0 00-.47-1.899L16.55 15.806a1.129 1.129 0 00-.331-.044zm1.584 2.754l94.024 27.07-70.566 67.877-23.458-94.947z" overflow="visible"/><path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M65.137 29.84a1.129 1.129 0 00-.807.315L27.654 65.46a1.129 1.129 0 00.471 1.898L76.984 81.44a1.129 1.129 0 001.409-1.355L66.21 30.698a1.129 1.129 0 00-1.073-.858zm-.651 3.3L75.734 78.73l-45.104-13L64.486 33.14z" overflow="visible"/><path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M46.914 47.313a1.129 1.129 0 00-1.076 1.399l6.054 24.531a1.129 1.129 0 001.88.543l18.222-17.563a1.129 1.129 0 00-.472-1.898l-24.277-6.968a1.129 1.129 0 00-.331-.044zm1.583 2.751l20.522 5.89L53.614 70.8l-5.117-20.736z" overflow="visible"/><path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M40.902 22.809a1.129 1.129 0 00-.807.316L21.873 40.687a1.129 1.129 0 00.472 1.898l24.273 6.969a1.129 1.129 0 001.408-1.356l-6.051-24.53a1.129 1.129 0 00-1.073-.86zm-.65 3.3l5.114 20.736-20.517-5.89 15.403-14.847zM89.453 36.793a1.129 1.129 0 00-.806.316L70.423 54.67a1.129 1.129 0 00.472 1.899l24.274 6.968a1.129 1.129 0 001.408-1.356l-6.05-24.53a1.129 1.129 0 00-1.074-.859zm-.65 3.3l5.114 20.737L73.4 54.94l15.403-14.846zM52.944 71.864a1.129 1.129 0 00-.74.315L33.982 89.742a1.129 1.129 0 00.472 1.898l24.278 6.968a1.129 1.129 0 001.407-1.355l-6.055-24.531a1.129 1.129 0 00-1.14-.858zm-.582 3.3l5.118 20.737-20.522-5.89 15.404-14.846z" overflow="visible"/></g>
   </svg>
-  <text x="64" y="109" text-anchor="middle" fill="#f5f5f5" font-family="Segoe UI, Arial, sans-serif" font-size="14">Three.js</text>
+  <text x="64" y="109" text-anchor="middle" fill="#f5f5f7" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Three.js</text>
+</g>
 </svg>
