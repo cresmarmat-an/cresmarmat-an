@@ -24,49 +24,21 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/sections/roblox-mobile.svg?v=vibrant-1">
-    <img src="./assets/sections/roblox.svg?v=vibrant-1" width="960" alt="Roblox development">
+    <source media="(max-width: 600px)" srcset="./assets/sections/roblox-mobile.svg?v=embedded-stack-1">
+    <img src="./assets/sections/roblox.svg?v=embedded-stack-1" width="960" alt="Roblox development: Luau, Lua, Roblox Studio, Rojo">
   </picture>
-</p>
-
-<p align="center">
-  <img src="./assets/tech/luau.svg?v=vibrant-1" width="112" height="123" alt="Luau">&nbsp;
-  <img src="./assets/tech/lua.svg?v=vibrant-1" width="112" height="123" alt="Lua">&nbsp;
-  <img src="./assets/tech/roblox-studio.svg?v=vibrant-1" width="112" height="123" alt="Roblox Studio">&nbsp;
-  <img src="./assets/tech/rojo.svg?v=vibrant-1" width="112" height="123" alt="Rojo">&nbsp;
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/sections/web-mobile.svg?v=vibrant-1">
-    <img src="./assets/sections/web.svg?v=vibrant-1" width="960" alt="Web development">
+    <source media="(max-width: 600px)" srcset="./assets/sections/web-mobile.svg?v=embedded-stack-1">
+    <img src="./assets/sections/web.svg?v=embedded-stack-1" width="960" alt="Web development: JavaScript, TypeScript, Next.js, Node.js, HTML, CSS, Tailwind CSS, Three.js">
   </picture>
-</p>
-
-<p align="center">
-  <img src="./assets/tech/javascript.svg?v=vibrant-1" width="112" height="123" alt="JavaScript">&nbsp;
-  <img src="./assets/tech/typescript.svg?v=vibrant-1" width="112" height="123" alt="TypeScript">&nbsp;
-  <img src="./assets/tech/nextjs.svg?v=vibrant-1" width="112" height="123" alt="Next.js">&nbsp;
-  <img src="./assets/tech/nodejs.svg?v=vibrant-1" width="112" height="123" alt="Node.js">&nbsp;
-  <br>
-  <img src="./assets/tech/html.svg?v=vibrant-1" width="112" height="123" alt="HTML">&nbsp;
-  <img src="./assets/tech/css.svg?v=vibrant-1" width="112" height="123" alt="CSS">&nbsp;
-  <img src="./assets/tech/tailwindcss.svg?v=vibrant-1" width="112" height="123" alt="Tailwind CSS">&nbsp;
-  <img src="./assets/tech/threejs.svg?v=vibrant-1" width="112" height="123" alt="Three.js">&nbsp;
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg?v=vibrant-1">
-    <img src="./assets/sections/systems.svg?v=vibrant-1" width="960" alt="Languages and tooling">
+    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg?v=embedded-stack-1">
+    <img src="./assets/sections/systems.svg?v=embedded-stack-1" width="960" alt="Languages and tooling: Python, C, C#, C++, Rust, Git">
   </picture>
-</p>
-
-<p align="center">
-  <img src="./assets/tech/python.svg?v=vibrant-1" width="112" height="123" alt="Python">&nbsp;
-  <img src="./assets/tech/c.svg?v=vibrant-1" width="112" height="123" alt="C">&nbsp;
-  <img src="./assets/tech/csharp.svg?v=vibrant-1" width="112" height="123" alt="C#">&nbsp;
-  <img src="./assets/tech/cpp.svg?v=vibrant-1" width="112" height="123" alt="C++">&nbsp;
-  <img src="./assets/tech/rust.svg?v=vibrant-1" width="112" height="123" alt="Rust">&nbsp;
-  <img src="./assets/tech/git.svg?v=vibrant-1" width="112" height="123" alt="Git">&nbsp;
 </p>
