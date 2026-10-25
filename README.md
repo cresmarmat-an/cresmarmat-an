@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/avatar.png?v=vibrant-1">
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/header.png?v=vibrant-1">
-    <source media="(max-width: 600px)" srcset="./assets/profile/avatar.gif?v=vibrant-1">
-    <img src="./assets/profile/header.gif?v=vibrant-1" width="960" alt="Cresmar Mat-an with colorful Roblox and web development tools in a charcoal glass composition">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile/avatar.png?v=vibrant-2">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/header.png?v=vibrant-2">
+    <source media="(max-width: 600px)" srcset="./assets/profile/avatar.gif?v=vibrant-2">
+    <img src="./assets/profile/header.gif?v=vibrant-2" width="960" alt="Cresmar Mat-an with colorful Roblox and Visual Studio tools in a charcoal glass composition">
   </picture>
 </p>
 
