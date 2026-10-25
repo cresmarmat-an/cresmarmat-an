@@ -39,7 +39,7 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg?v=embedded-stack-1">
-    <img src="./assets/sections/systems.svg?v=embedded-stack-1" width="960" alt="Languages and tooling: Python, C, C#, C++, Rust, Git">
+    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg?v=embedded-stack-2">
+    <img src="./assets/sections/systems.svg?v=embedded-stack-2" width="960" alt="Languages and tooling: Python, C, C#, C++, Rust, Git, VS Code, Visual Studio">
   </picture>
 </p>

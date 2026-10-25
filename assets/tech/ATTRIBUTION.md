@@ -40,6 +40,15 @@ The following original vector assets come from the official Devicon repository a
 
 Next.js retains its black and white mark with a thin white backing for contrast. The Devicon MIT license is included in [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
 
+## Editors
+
+The following original vector assets come from Devicon and retain their original logo colors:
+
+- VS Code: https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg
+- Visual Studio: https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original.svg
+
+Their internal ids are prefixed so they can sit inside the section cards next to other tiles. See [LICENSE-DEVICON.txt](./LICENSE-DEVICON.txt).
+
 ## Rojo
 
 The Rojo wordmark is the vector artwork from:
