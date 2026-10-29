@@ -1,0 +1,10 @@
+{
+  "name": "cresmar-profile-artwork",
+  "private": true,
+  "scripts": {
+    "build": "python scripts/build_profile.py"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

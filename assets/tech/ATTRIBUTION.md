@@ -62,3 +62,21 @@ The complete vector geometry is embedded in `rojo.svg`. Only its placement and s
 Each SVG is embedded directly with no network dependencies. The glass frames use saturated brand-rich gradients across the whole card surface, bright ambient halos and reflections, a luminous colored bevel, and white text labels on a darker lower area. Primary ambient lighting reaches 60 percent opacity. Naturally monochrome logos have violet, mint, or amber ambient accents around their untouched artwork. Technology logos retain their original brand colors and vector geometry. The naturally monochrome Rust and Three.js marks use a white foreground for contrast. Lua retains its dark blue artwork with neutral white backing shapes for legibility. All brand logo geometry is retained. Ambient color appears only in the surrounding presentation and does not recolor the brand vectors.
 
 The 128 by 140 source canvases include vertical canvas padding so consecutive rows retain consistent spacing in GitHub Markdown. All technology marks sit in centered 52 by 52 viewports, with their original inner vector paths and colors unchanged.
+
+## Portfolio coordinate-field presentation
+
+The current profile artwork embeds the same original mark geometry in 64px grid
+cells, with coral, violet, and green accents and separate dark/light palettes.
+`assets/marks/` contains the extracted original marks used by the generators.
+Naturally monochrome marks use the appropriate foreground for each theme; colored
+marks retain their brand colors. The earlier `assets/tech/` tiles remain available
+as editable legacy artwork.
+
+Poppins Regular and Medium are the unmodified fonts from the Google Fonts project:
+https://github.com/google/fonts/tree/main/ofl/poppins . The SIL Open Font License
+is included in `assets/fonts/OFL.txt`. Generated SVG labels use outlined Poppins
+geometry, so viewing the README does not request an external font.
+
+The transparent portrait was copied unchanged from the portfolio's
+`assets/img/profile.png`. The generated hero composites it over the coordinate
+field with the lower U-shaped fade; the original hair and head remain opaque.
