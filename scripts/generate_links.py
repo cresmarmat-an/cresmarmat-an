@@ -8,7 +8,7 @@ not depend on a locally installed font or an external stylesheet.
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-from design_utils import palette, text_path
+from design_utils import palette, text_path, text_width
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,20 +56,18 @@ def button(theme, slug, label, accent_key, icon):
     ink = colors["on_accent"] if primary else colors["text"]
     border = colors["accent"] if primary else colors["line"]
     icon_color = ink if primary else colors[accent_key]
-    mark = "" if primary else (
-        f'<path d="M146 23v6" stroke="{colors[accent_key]}" '
-        'stroke-width="2" stroke-linecap="square"/>'
-    )
+    content_width = 24 + 12 + text_width(label, 15, weight="Medium")
+    content_shift = (164 - content_width) / 2 - 16
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" width="164" height="52" '
         'viewBox="0 0 164 52" role="img" aria-labelledby="title">'
         f'<title id="title">{label}</title>'
         f'<rect x=".5" y="3.5" width="163" height="45" rx="4" '
         f'fill="{surface}" stroke="{border}" stroke-width="1"/>'
+        f'<g transform="translate({content_shift:.3f} 0)">'
         + icon.format(color=icon_color)
         + text_path(label, 52, 31, 15, ink, weight="Medium")
-        + mark
-        + '</svg>\n'
+        + '</g></svg>\n'
     )
 
 
@@ -85,6 +83,9 @@ def validate(source, label):
     assert svg.find(f"{ns}rect").get("height") == "45"
     assert all(node.tag not in {f"{ns}script", f"{ns}foreignObject", f"{ns}text", f"{ns}image"} for node in svg.iter())
     assert "href=" not in source and "url(" not in source
+    assert "M146 23v6" not in source
+    content_width = 24 + 12 + text_width(label, 15, weight="Medium")
+    assert svg.find(f"{ns}g").get("transform") == f"translate({(164 - content_width) / 2 - 16:.3f} 0)"
 
 
 def main():

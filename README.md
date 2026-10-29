@@ -15,12 +15,12 @@
 
 <p align="left">Passionate about making cool and useful stuff. I’m a developer at heart who loves the thrill of starting with a blank file and turning it into something functional. Always learning, constantly experimenting, and driven by a genuine love for making things that work.</p>
 
-<p align="left">
-  <a href="https://cresmarmat-an.github.io/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/portfolio-light.svg?v=portfolio-grid-1"><img src="./assets/links/portfolio.svg?v=portfolio-grid-1" width="150" height="48" alt="Portfolio"></picture></a>
-  <a href="mailto:dev.cresmar@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/email-light.svg?v=portfolio-grid-1"><img src="./assets/links/email.svg?v=portfolio-grid-1" width="150" height="48" alt="Email"></picture></a>
-  <a href="https://x.com/cresmarmat_an"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/x-light.svg?v=portfolio-grid-1"><img src="./assets/links/x.svg?v=portfolio-grid-1" width="150" height="48" alt="X"></picture></a>
-  <a href="https://www.facebook.com/cresmar.matan.dev/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/facebook-light.svg?v=portfolio-grid-1"><img src="./assets/links/facebook.svg?v=portfolio-grid-1" width="150" height="48" alt="Facebook"></picture></a>
-  <a href="https://www.roblox.com/users/11875165025"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/roblox-light.svg?v=portfolio-grid-1"><img src="./assets/links/roblox.svg?v=portfolio-grid-1" width="150" height="48" alt="Roblox"></picture></a>
+<p align="center">
+  <a href="https://cresmarmat-an.github.io/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/portfolio-light.svg?v=centered-links-1"><img src="./assets/links/portfolio.svg?v=centered-links-1" width="150" height="48" alt="Portfolio"></picture></a>
+  <a href="mailto:dev.cresmar@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/email-light.svg?v=centered-links-1"><img src="./assets/links/email.svg?v=centered-links-1" width="150" height="48" alt="Email"></picture></a>
+  <a href="https://x.com/cresmarmat_an"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/x-light.svg?v=centered-links-1"><img src="./assets/links/x.svg?v=centered-links-1" width="150" height="48" alt="X"></picture></a>
+  <a href="https://www.facebook.com/cresmar.matan.dev/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/facebook-light.svg?v=centered-links-1"><img src="./assets/links/facebook.svg?v=centered-links-1" width="150" height="48" alt="Facebook"></picture></a>
+  <a href="https://www.roblox.com/users/11875165025"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/roblox-light.svg?v=centered-links-1"><img src="./assets/links/roblox.svg?v=centered-links-1" width="150" height="48" alt="Roblox"></picture></a>
 </p>
 
 <h2 align="left">Languages and tools</h2>
