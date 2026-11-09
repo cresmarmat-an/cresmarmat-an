@@ -11,7 +11,7 @@
   </picture>
 </h1>
 
-<p align="center">##Software developer from the Philippines.</p>
+<p align="center"><strong>Software developer from the Philippines.</strong></p>
 
 <p align="center">Passionate about making cool and useful stuff. I’m a developer at heart who loves the thrill of starting with a blank file and turning it into something functional. Always learning, constantly experimenting, and driven by a genuine love for making things that work.</p>
 
