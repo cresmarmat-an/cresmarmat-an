@@ -11,9 +11,9 @@
   </picture>
 </h1>
 
-<p align="left">Software developer from the Philippines.</p>
+<p align="center">Software developer from the Philippines.</p>
 
-<p align="left">Passionate about making cool and useful stuff. I’m a developer at heart who loves the thrill of starting with a blank file and turning it into something functional. Always learning, constantly experimenting, and driven by a genuine love for making things that work.</p>
+<p align="center">Passionate about making cool and useful stuff. I’m a developer at heart who loves the thrill of starting with a blank file and turning it into something functional. Always learning, constantly experimenting, and driven by a genuine love for making things that work.</p>
 
 <p align="center">
   <a href="https://cresmarmat-an.github.io/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/portfolio-light.svg?v=centered-links-1"><img src="./assets/links/portfolio.svg?v=centered-links-1" width="150" height="48" alt="Portfolio"></picture></a>
