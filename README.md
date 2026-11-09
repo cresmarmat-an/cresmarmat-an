@@ -22,32 +22,3 @@
   <a href="https://www.facebook.com/cresmar.matan.dev/"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/facebook-light.svg?v=centered-links-1"><img src="./assets/links/facebook.svg?v=centered-links-1" width="150" height="48" alt="Facebook"></picture></a>
   <a href="https://www.roblox.com/users/11875165025"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/links/roblox-light.svg?v=centered-links-1"><img src="./assets/links/roblox.svg?v=centered-links-1" width="150" height="48" alt="Roblox"></picture></a>
 </p>
-
-<h2 align="left">Languages and tools</h2>
-
-<p align="left">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/sections/roblox-mobile-light.svg?v=portfolio-grid-1">
-    <source media="(max-width: 600px)" srcset="./assets/sections/roblox-mobile.svg?v=portfolio-grid-1">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/roblox-light.svg?v=portfolio-grid-1">
-    <img src="./assets/sections/roblox.svg?v=portfolio-grid-1" width="960" alt="Roblox development: Luau, Lua, Roblox Studio, Rojo">
-  </picture>
-</p>
-
-<p align="left">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/sections/web-mobile-light.svg?v=portfolio-grid-1">
-    <source media="(max-width: 600px)" srcset="./assets/sections/web-mobile.svg?v=portfolio-grid-1">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/web-light.svg?v=portfolio-grid-1">
-    <img src="./assets/sections/web.svg?v=portfolio-grid-1" width="960" alt="Web development: JavaScript, TypeScript, Next.js, Node.js, HTML, CSS, Tailwind CSS, Three.js">
-  </picture>
-</p>
-
-<p align="left">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/sections/systems-mobile-light.svg?v=portfolio-grid-1">
-    <source media="(max-width: 600px)" srcset="./assets/sections/systems-mobile.svg?v=portfolio-grid-1">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/systems-light.svg?v=portfolio-grid-1">
-    <img src="./assets/sections/systems.svg?v=portfolio-grid-1" width="960" alt="Languages and tooling: Python, C, C#, C++, Rust, Git, VS Code, Visual Studio">
-  </picture>
-</p>
