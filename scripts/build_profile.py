@@ -14,6 +14,7 @@ def run(*args):
 def main():
     with tempfile.TemporaryDirectory(prefix='cresmar-profile-') as frames:
         run(sys.executable, 'scripts/generate_links.py')
+        run(sys.executable, 'scripts/generate_divider.py')
         run(sys.executable, 'scripts/generate_sections.py')
         run(sys.executable, 'scripts/generate_header.py', '--frames-dir', frames)
         run('node', 'scripts/render_profile.cjs', frames)
